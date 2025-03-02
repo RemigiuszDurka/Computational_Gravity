@@ -53,18 +53,18 @@ In this course, we will use both symbolic and numerical tools to handle complex 
 Mathematica is a powerful symbolic and numerical computation software. The following key functions will be used extensively:
 
 - **Simplify / FullSimplify**: To simplify algebraic expressions, particularly tensor calculations in GR.
-  $$ \text{Simplify}[ \text{expression} ] $$
+  $$\text{Simplify}[ \text{expression} ]$$
 - **Solve / NSolve**: To find exact and numerical solutions to algebraic equations.
-  $$ \text{Solve}[ \text{eqn}, x ] $$
+  $$\text{Solve}[ \text{eqn}, x ]$$
 - **DSolve**: For solving differential equations analytically and numerically.
-  $$ \text{DSolve}[ y''[x] + y[x] == 0, y[x], x ] $$
+  $$\text{DSolve}[ y''[x] + y[x] == 0, y[x], x ]$$
 - **NDSolveValue**: For numerical solutions of differential equations.
-  $$ \text{NDSolveValue}[ y''[x] + y[x] == 0, y, \{x, 0, 10\} ] $$
+  $$\text{NDSolveValue}[ y''[x] + y[x] == 0, y, \{x, 0, 10\} ]$$
 - **Substitute (ReplaceAll /. )**: To substitute values and simplify expressions dynamically.
-  $$ \text{expression} /. \{x -> 3, y -> 5\} $$
+  $$\text{expression} /. \{x -> 3, y -> 5\}$$
 - **Plot / Plot3D**: Visualization of functions and solutions.
-  $$ \text{Plot}[\sin(x), \{x, 0, 10\}] $$
-and $$ \text{Plot3D}[\sin(x) \cos(y), \{x, 0, 10\}, \{y, 0, 10\}] $$
+  $$\text{Plot}[\sin(x), \{x, 0, 10\}]$$
+and $$\text{Plot3D}[\sin(x) \cos(y), \{x, 0, 10\}, \{y, 0, 10\}]$$
 
 Check:
 - [Wolfram Mathematica Documentation](https://reference.wolfram.com/language/) for detailed functions and examples
