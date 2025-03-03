@@ -28,7 +28,7 @@ Each problem should have a short markdown code note explaining the setup/theory/
 
     d) compare your results with [Catalogue of Spacetimes](https://www2.mpia-hd.mpg.de/homes/tmueller/pages/rela_additional.php) to make sure the results are correct.
 
-    e) do computations using Alcubierre solution [arXiv:gr-qc/0009013](https://arxiv.org/abs/gr-qc/0009013), and Rindler solution.
+    e) do similar computations using Alcubierre solution [arXiv:gr-qc/0009013](https://arxiv.org/abs/gr-qc/0009013), and Rindler solution.
 
 4. **Parallel transport** 
 
@@ -44,12 +44,11 @@ Each problem should have a short markdown code note explaining the setup/theory/
 
 7. **Lagrangian constructing**
 
-    Compute the curvature scalar, Kretschmann scalar (link: [https://arxiv.org/abs/astro-ph/9912320](https://arxiv.org/abs/astro-ph/9912320))
-    ), Euler (Gauss-Bonnet) term, and Pontryagin term separately for the Schwarzschild metric, Reissner-Nordstrom metric, and Kerr metric. Compare the values of the [Kretschmann scalar](https://medium.com/@Merrysci/why-kretschmann-scalar-is-important-in-general-relativity-05e58576768e) for these metrics and discuss its physical significance. Try to visualize the curvature of spacetime using the Kretschmann scalar. For the Schwarzschild case use various coordinate systems.
+    Compute the curvature scalar, Kretschmann scalar (link: [https://arxiv.org/abs/astro-ph/9912320](https://arxiv.org/abs/astro-ph/9912320)), Euler (Gauss-Bonnet) term, and Pontryagin term separately for the Schwarzschild metric, Reissner-Nordstrom metric, and Kerr metric. Compare the values of the [Kretschmann scalar](https://medium.com/@Merrysci/why-kretschmann-scalar-is-important-in-general-relativity-05e58576768e) for these metrics and discuss its physical significance. Try to visualize the curvature of spacetime using the Kretschmann scalar. For the Schwarzschild case use various coordinate systems.
 
 8. **Implementing the derivation of Reissner-Nordstrom solution**
 
-    Try to computationally repeat derivations given in [link 1](https://www.researchgate.net/publication/336304500_Reissner-Nordstrom_metric) and [link 2](https://www.diva-portal.org/smash/get/diva2:912393/FULLTEXT01.pdf). Try to repeat it for a cosmological solution.
+    Try to computationally repeat derivations given in [link 1](https://www.researchgate.net/publication/336304500_Reissner-Nordstrom_metric) and [link 2](https://www.diva-portal.org/smash/get/diva2:912393/FULLTEXT01.pdf). Try to repeat it for a solution with the cosmological constant.
 
     *Try to repeat it for a uniform constant electric/magnetic field.
 
