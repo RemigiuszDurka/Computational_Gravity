@@ -36,22 +36,22 @@ Each problem should have a short markdown code note explaining the setup/theory/
 
 5. **Geodesic Equation** 
 
-    Write down the geodesic equations for a Schwarzschild metric. List interesting initial conditions for the Schwarzschild metric and plot the geodesic curves around the Schwarzschild black hole.
+    Write down formally the geodesic equations for a Schwarzschild metric. List interesting initial conditions for the Schwarzschild metric and plot the geodesic curves around the Schwarzschild black hole.
 
-6. **Friedmann Equations**
-
-    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe. Define energy-momentum tensor. Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. 
-
-7. **Lagrangian constructing**
-
-    Compute the curvature scalar, Kretschmann scalar (link: [https://arxiv.org/abs/astro-ph/9912320](https://arxiv.org/abs/astro-ph/9912320)), Euler (Gauss-Bonnet) term, and Pontryagin term separately for the Schwarzschild metric, Reissner-Nordstrom metric, and Kerr metric. Compare the values of the [Kretschmann scalar](https://medium.com/@Merrysci/why-kretschmann-scalar-is-important-in-general-relativity-05e58576768e) for these metrics and discuss its physical significance. Try to visualize the curvature of spacetime using the Kretschmann scalar. For the Schwarzschild case use various coordinate systems.
-
-8. **Implementing the derivation of Reissner-Nordstrom solution**
+6. **Implementing the derivation of Reissner-Nordstrom solution**
 
     Try to computationally repeat derivations given in [link 1](https://www.researchgate.net/publication/336304500_Reissner-Nordstrom_metric) and [link 2](https://www.diva-portal.org/smash/get/diva2:912393/FULLTEXT01.pdf). Try to repeat it for a solution with the cosmological constant.
 
     *Try to repeat it for a uniform constant electric/magnetic field.
 
+7. **Friedmann Equations**
+
+    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe. Define energy-momentum tensor. Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. 
+
+8. **Lagrangian constructing**
+
+    Compute the curvature scalar, Kretschmann scalar (link: [https://arxiv.org/abs/astro-ph/9912320](https://arxiv.org/abs/astro-ph/9912320)), Euler (Gauss-Bonnet) term, and Pontryagin term separately for the Schwarzschild metric, Reissner-Nordstrom metric, and Kerr metric. Compare the values of the [Kretschmann scalar](https://medium.com/@Merrysci/why-kretschmann-scalar-is-important-in-general-relativity-05e58576768e) for these metrics and discuss its physical significance. Try to visualize the curvature of spacetime using the Kretschmann scalar. For the Schwarzschild case use various coordinate systems.
+   
 9.   **Variational Principle** 
 
     Implement the variational principle to derive the field equations for gravity. Discuss the implications of the modified field equations f(R) gravity model. Implement Gravity coupled to the scalar field.
