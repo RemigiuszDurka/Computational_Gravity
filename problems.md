@@ -22,7 +22,7 @@ Each problem should have a short markdown code note explaining the setup/theory/
 
     a) for a given metric be able to compute the inverse metric, Christoffel symbols, Riemann and Ricci tensors, curvature scala and the Einstein tensor components.
 
-    b) incorporate solution scenarios: flat case, with M, with Q, with rotation Kerr parameter $a=J/M$, and compute all quantities given in above (a).
+    b) incorporate solution scenarios: flat case, with M, with Q, with rotation Kerr parameter $a=J/M$, and compute all quantities listed above.
 
     c) include cosmological constant $\Lambda$ to Schwarschild case, and Reissner-Nordstrom case. Update Einstein equation to the $+ \Lambda g_{\mu \nu}$ term.
    
@@ -50,18 +50,18 @@ Each problem should have a short markdown code note explaining the setup/theory/
 
 8. **Friedmann Equations**
 
-    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe. Define energy-momentum tensor. Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. 
+    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe. Define in python energy-momentum tensor. Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. 
 
-10.   **Variational Principle** 
+9. **Variational Principle** 
 
-    Implement the variational principle to derive the field equations for gravity. Discuss the implications of the modified field equations f(R) gravity model. Implement Gravity coupled to the scalar field.
+    Show in python how two Firedmann equations come from the variation principle (use N(t) and a(t) to produe value of g, R and Einstein-Hilbert action). Write a markdown note with details of variation of the EM in flat Minkowski space. Implement in pyhton FLRW Gravity coupled to the scalar field. 
     
-11. **Lagrangian constructing**
+10. **Lagrangian constructing**
 
     Compute the curvature scalar, Kretschmann scalar (link: [https://arxiv.org/abs/astro-ph/9912320](https://arxiv.org/abs/astro-ph/9912320)), Euler (Gauss-Bonnet) term, and Pontryagin term separately for the Schwarzschild metric, Reissner-Nordstrom metric, and Kerr metric. Compare the values of the [Kretschmann scalar](https://medium.com/@Merrysci/why-kretschmann-scalar-is-important-in-general-relativity-05e58576768e) for these metrics and discuss its physical significance. Try to visualize the curvature of spacetime using the Kretschmann scalar. For the Schwarzschild case use various coordinate systems.
    
    
-12.  **Newtonian limit**
+11.  **Newtonian limit**
 
     Show that the Newtonian limit of the Schwarzschild metric is the Newtonian potential.
 
