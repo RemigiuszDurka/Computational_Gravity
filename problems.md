@@ -42,30 +42,25 @@ Each problem should have a short markdown code note explaining the setup/theory/
 
 ---
 
-7. **Implementing the derivation of Reissner-Nordstrom solution**
+6. **Implementing the derivation of Reissner-Nordstrom solution**
 
-    Try to computationally repeat derivations given in [link 1](https://www.researchgate.net/publication/336304500_Reissner-Nordstrom_metric) and [link 2](https://www.diva-portal.org/smash/get/diva2:912393/FULLTEXT01.pdf). Try to repeat it for a solution with the cosmological constant.
+    Try to computationally repeat derivations given in [link 1](https://www.researchgate.net/publication/336304500_Reissner-Nordstrom_metric) and [link 2](https://www.diva-portal.org/smash/get/diva2:912393/FULLTEXT01.pdf). Try to repeat it for a solution with the cosmological constant. [Extremly hard (publication level: Try to repeat it for a uniform constant electric/magnetic field :)]
 
-    Try to repeat it for a uniform constant electric/magnetic field.
+7. **Friedmann Equations**
 
-8. **Friedmann Equations**
+    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe (use starting general metric ansatz, and define in python energy-momentum tensor). Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. 
 
-    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe. Define in python energy-momentum tensor. Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. 
+8. **Variational Principle** 
 
-9. **Variational Principle** 
+    Show in python how two Firedmann equations come from the variation principle. Hint: use N(t) and a(t) to produe value of g, R and Einstein-Hilbert action. Write a markdown note with details of variation of the EM in flat Minkowski space. Implement in pyhton FLRW Gravity coupled to the scalar field. 
 
-    Show in python how two Firedmann equations come from the variation principle (use N(t) and a(t) to produe value of g, R and Einstein-Hilbert action). Write a markdown note with details of variation of the EM in flat Minkowski space. Implement in pyhton FLRW Gravity coupled to the scalar field. 
-    
-10. **Lagrangian constructing**
+---
+
+9. **Lagrangian constructing**
 
     Compute the curvature scalar, Kretschmann scalar (link: [https://arxiv.org/abs/astro-ph/9912320](https://arxiv.org/abs/astro-ph/9912320)), Euler (Gauss-Bonnet) term, and Pontryagin term separately for the Schwarzschild metric, Reissner-Nordstrom metric, and Kerr metric. Compare the values of the [Kretschmann scalar](https://medium.com/@Merrysci/why-kretschmann-scalar-is-important-in-general-relativity-05e58576768e) for these metrics and discuss its physical significance. Try to visualize the curvature of spacetime using the Kretschmann scalar. For the Schwarzschild case use various coordinate systems.
    
-   
-11.  **Newtonian limit**
-
-    Show that the Newtonian limit of the Schwarzschild metric is the Newtonian potential.
-
-12. **Propose some interesting GR problem** and solve it.
+10. **Propose some interesting GR problem** and solve it.
 
 ## Additional links:
 
