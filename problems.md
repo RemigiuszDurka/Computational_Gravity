@@ -48,11 +48,11 @@ Each problem should have a short markdown code note explaining the setup/theory/
 
 7. **Friedmann Equations**
 
-    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe (use starting general metric ansatz, and define in python energy-momentum tensor). Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. 
+    Derive the Friedmann equations directly from Einstein's field equations for a homogeneous and isotropic universe (use starting general metric ansatz, and define in python energy-momentum tensor). Discuss/visualize the possible solutions $a(t)$ (radiation, dust, cosmological constant, and mixed) and their implications for the evolution of the universe. Discuss the energy density, pressure, and equation of state for each component. Hints: [link](https://github.com/RemigiuszDurka/Computational_Gravity/blob/main/FWRL.md).
 
 8. **Variational Principle** 
 
-    Show in python how two Firedmann equations come from the variation principle. Hint: use N(t) and a(t) to produe value of g, R and Einstein-Hilbert action. Write a markdown note with details of variation of the EM in flat Minkowski space. Implement in pyhton FLRW Gravity coupled to the scalar field. 
+    Show in python how two Firedmann equations come from the variation principle. Hint: use N(t) and a(t) to produce value of g, R and Einstein-Hilbert action. Write a markdown note with details of variation of the EM in flat Minkowski space. Implement in python FLRW Gravity coupled to the scalar field. 
 
 ---
 
