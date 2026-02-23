@@ -1,4 +1,4 @@
 # Computational Gravity
 
-- start
-- problems
+- [start](https://github.com/RemigiuszDurka/Computational_Gravity/blob/main/start.md)
+- [problems](https://github.com/RemigiuszDurka/Computational_Gravity/blob/main/problems.md)
